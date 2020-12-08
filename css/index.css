@@ -1,0 +1,385 @@
+/*按視窗大小區別*/
+@media (max-width: 767px)
+{
+	.logo
+	{
+		width: 30%;
+		margin: 20px 0;
+
+	}
+
+	#main
+	{
+		text-align: center;
+		background-color: rgba(165,222,228,0.8);
+		position: fixed;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		width: 100%
+	}
+
+	nav
+	{
+		display: none;
+		z-index: 50;
+		background-color: rgba(221,210,59,0.8);
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	nav div
+	{
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navlink
+	{
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 1.6rem;
+		margin: 15px 0;
+	}
+
+	.menu
+	{
+		width: 7%;
+		position: fixed;
+		top: 20px;
+		left: 20px;
+	}
+
+	.menuclose
+	{
+		width: 7%;
+		position: fixed;
+		top: 20px;
+		left: 20px;
+	}
+
+	.socialall
+	{
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+	}
+
+	.social
+	{
+		display: block;
+	}
+
+	.ig
+	{
+		margin: 5px 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.logo
+	{
+		width: 30%;
+		margin: 20px 0;
+	}
+
+	#main
+	{
+		text-align: center;
+		background-color: rgba(165,222,228,0.8);
+		position: fixed;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		width: 100%
+	}
+
+	nav
+	{
+		display: none;
+		z-index: 50;
+		background-color: rgba(221,210,59,0.8);
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	nav div
+	{
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navlink
+	{
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 1.6rem;
+		margin: 15px 0;
+	}
+
+	.menu
+	{
+		width: 7%;
+		position: fixed;
+		top: 20px;
+		left: 20px;
+	}
+
+	.socialall
+	{
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+	}
+
+	.social
+	{
+		display: block;
+	}
+
+	.ig
+	{
+		margin: 5px 0;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.logo
+	{
+		width: 30%;		
+		margin: 20px 0;
+	}
+
+	#main
+	{
+		text-align: center;
+		background-color: rgba(165,222,228,0.8);
+		position: fixed;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		width: 100%
+	}
+
+	nav
+	{
+		display: none;
+		z-index: 50;
+		background-color: rgba(221,210,59,0.8);
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	nav div
+	{
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navlink
+	{
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 1.6rem;
+		margin: 15px 0;
+	}
+
+	.menu
+	{
+		width: 7%;
+		position: fixed;
+		top: 20px;
+		left: 20px;
+	}
+
+	.socialall
+	{
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+	}
+
+	.social
+	{
+		display: block;
+	}
+
+	.ig
+	{
+		margin: 5px 0;
+	}
+}
+
+@media (min-width: 1200px)
+{
+	#main
+	{
+		background-color: rgba(165,222,228,0.8);
+		width: 20%;
+		height: 100vh;
+		text-align: center;
+		position: fixed;
+		left: 50px;
+		top: 0;
+		z-index: 2;
+	}
+
+	.logo
+	{
+		width: 70%;
+		margin: 15% 0 20%;
+	}
+
+	.navlink
+	{
+		color: #ffffff;
+		display: block;
+		text-decoration: none;
+		font-size: 1.5rem;
+		margin: 15px;
+	}
+
+	.navlink:hover
+	{
+		color: #26453D;
+	}
+
+	.menu,.menuclose
+	{
+		display: none;
+	}
+
+	.fb:hover
+	{
+		background-image: url(../images/facebook-sketched.png);
+	}
+
+	.ig:hover
+	{
+		background-image: url(../images/instagram-sketched.png);
+		margin: 0 5px;
+	}
+
+	.twitter:hover
+	{
+		background-image: url(../images/twitter-sketched.png);
+	}
+
+	.social
+	{
+		display: inline-block;
+	}
+
+	.ig
+	{
+		margin: 0 5px;
+	}
+
+	.socialall
+	{
+		position: absolute;
+		bottom: 30px;
+		width: 100%;
+	}
+
+}
+/*共用*/
+
+body
+{
+	margin:0; 
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+html
+{
+	font-size: 18px;
+}
+
+.social
+{
+	width: 50px;
+	height: 50px;
+	background-size: 100%;
+}
+
+.fb
+{
+	background-image: url(../images/facebook.png);
+}
+
+.ig
+{
+	background-image: url(../images/instagram.png);
+}
+
+.twitter
+{
+	background-image: url(../images/twitter.png);
+}
+
+.carousel-item
+{
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+}
+
+.c01
+{
+	background-image: url(../images/indexbg01.jpg);
+}
+
+.c02
+{
+	background-image: url(../images/indexbg02.jpg);
+}
+
+.c03
+{
+	background-image: url(../images/indexbg03.jpg);
+}
+
+.c04
+{
+	background-image: url(../images/indexbg04.jpg);
+}
+
+.c05
+{
+	background-image: url(../images/indexbg05.jpg);
+}
+
+#fb-like
+{
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	z-index: 50;
+}
+
+h1
+{
+	margin: 0;
+	font-size: 0;
+}
